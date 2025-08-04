@@ -11,7 +11,7 @@ You define:
 
 The script sends these to the OpenAI API and receives the full source code for the application — file by file — and writes them to disk.
 
-## Example Stack (Fully Configurable)
+## Example stack 
 
 You can use the script to generate projects with stacks like:
 
@@ -27,7 +27,7 @@ You can use the script to generate projects with stacks like:
 - OpenAI API key (GPT-4 recommended)
 
 
-## Setup & Usage: Step-by-Step
+## Setup & usage
 
 ### 1. Install dependencies
 
@@ -45,7 +45,7 @@ export OPENAI_API_KEY=your-openai-api-key
 
 Open index.ts and update the `SYSTEM_PROMPT` and `answers` variables to describe your desired project.
 
-### 5. Run the generator script
+### 4. Run the generator script
 
 ```bash
 npx ts-node index.ts
@@ -57,7 +57,7 @@ The script will:
 - Write them to the specified directory (under  ~/code-generator/projects)
 - Output install and run commands
 
-### 6. Install and run your generated project
+### 5. Install and run your generated project
 Go to your generated project folder. For example for a TypeScript project:
 
 ```bash
