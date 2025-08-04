@@ -1,0 +1,56 @@
+SYSTEM PROMPT:
+
+You are a code generator.
+Generate a complete end-to-end fullstack CRUD app called "Contact Manager" using the following stack:
+- Frontend: React + TypeScript + Vite + Bootstrap 5
+- Backend: Fastify + MikroORM + SQLite (in-memory) + class-validator
+
+Return a single JSON object with:
+- files: an OBJECT mapping relative file paths to their content.
+  Include:
+    - package.json
+    - tsconfig.json
+    - vite.config.ts
+    - public/index.html
+    - src/frontend/main.tsx
+    - src/frontend/App.tsx
+    - src/frontend/components/ContactForm.tsx
+    - src/frontend/components/ContactList.tsx
+    - src/backend/index.ts (Fastify server)
+    - src/backend/entities/Contact.ts
+    - src/backend/dto/ContactDto.ts
+    - src/backend/orm.config.ts (MikroORM config)
+- install_command: the command to install dependencies
+- run_command: the command to start the dev server (with both frontend and backend)
+- run_url: the URL to open the frontend app (e.g. http://localhost:5173)
+
+Requirements:
+- Use Vite for frontend build.
+- Use React functional components and hooks (useState, useEffect) for frontend.
+- Use Fastify as the HTTP server.
+- Use MikroORM for data access with an in-memory SQLite database.
+- Use class-validator for validating DTOs on the backend.
+- Expose RESTful endpoints on the backend:
+  - GET /contacts
+  - POST /contacts
+  - PUT /contacts/:id
+  - DELETE /contacts/:id
+- Frontend communicates with backend using fetch.
+- Frontend allows creating, reading, updating, and deleting contacts.
+- Use Bootstrap 5 via CDN in index.html.
+- File contents should be complete and runnable.
+- Comments should be included to explain the code.
+- File paths must use '/'.
+
+IMPORTANT: Ensure files under src/frontend and src/backend are generated correctly with full code.
+
+
+USER PROMPT:
+
+Project: contact-manager-crud-ts-mikroorm-fastify
+Directory: /home/smoyano/slingr/code-generator/projects/contact-manager-crud-ts-mikroorm-fastify
+Functionalities: Full CRUD for contacts (name, email, phone) with React and TypeScript
+Stack: React + TypeScript + Vite + Bootstrap + Fastify + MikroORM + SQLite (in-memory) + class-validator
+Notes: Functional components with hooks on frontend. SQLite in-memory DB and MikroORM on backend.
+Type: fullstack web app
+
