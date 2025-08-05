@@ -1,15 +1,14 @@
-# AI-Powered Full-Stack Code Generator
+# AI app factory
 
-This Node.js script generates an entire project (frontend, backend, or both) based on a flexible prompt system powered by **OpenAI**. The generation is fully driven by a customizable **system prompt** and a set of **answers**, allowing you to scaffold applications with different stacks and features.
+This Node.js utility generates an entire project (frontend, backend, or both) based on a flexible prompt system powered by **OpenAI**. The generation is fully driven by a customizable **system prompt** and a set of **answers**, allowing you to scaffold applications with different stacks and features.
 
-
-## How It Works
+## How it works
 
 You define:
 - A **system prompt** that instructs the model on how to behave (e.g., "You are a senior full-stack developer...")
 - An **answers object** that describes what you want to build (e.g., "React + Fastify CRUD app for contacts")
 
-The script sends these to the OpenAI API and receives the full source code for the application — file by file — and writes them to disk.
+The script sends these to the OpenAI API and receives the full source code for the application, file by file, and writes them to disk.
 
 ## Example stack 
 
@@ -54,7 +53,7 @@ npx ts-node index.ts
 The script will:
 - Send your prompt and answers to OpenAI
 - Receive the generated files (as JSON)
-- Write them to the specified directory (under  ~/code-generator/projects)
+- Write them to the specified directory (under  ~/ai-app-factory/projects)
 - Output install and run commands
 
 ### 5. Install and run your generated project
