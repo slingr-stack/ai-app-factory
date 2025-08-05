@@ -11,7 +11,7 @@ const homeDir = os.homedir();
 
 const answers = {
   name: "contact-manager-ts-refine-federated-graphql",
-  directory: homeDir.concat("/slingr/code-generator/projects/contact-manager-ts-refine-federated-graphql"),
+  directory: homeDir.concat("/slingr/ai-app-factory/projects/contact-manager-ts-refine-federated-graphql"),
   functionalities: "Full-stack admin app showing contacts from a DB (CRUD) and companies from an external REST API (read-only) under a unified GraphQL API.",
   stack: "Fastify + GraphQL + MikroORM + REST API + Refine + React + TypeScript",
   notes: `
