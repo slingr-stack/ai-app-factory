@@ -8,7 +8,7 @@ You define:
 - A **system prompt** that instructs the model on how to behave (e.g., "You are a senior full-stack developer...")
 - An **answers object** that describes what you want to build (e.g., "React + Fastify CRUD app for contacts")
 
-The script sends these to the OpenAI API and receives the full source code for the application — file by file — and writes them to disk.
+The script sends these to the OpenAI API and receives the full source code for the application, file by file, and writes them to disk.
 
 ## Example stack 
 
