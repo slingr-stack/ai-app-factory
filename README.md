@@ -1,9 +1,9 @@
-# AI-Powered Full-Stack Code Generator
+# AI-Powered app code generator
 
 This Node.js script generates an entire project (frontend, backend, or both) based on a flexible prompt system powered by **OpenAI**. The generation is fully driven by a customizable **system prompt** and a set of **answers**, allowing you to scaffold applications with different stacks and features.
 
 
-## How It Works
+## How it works
 
 You define:
 - A **system prompt** that instructs the model on how to behave (e.g., "You are a senior full-stack developer...")
