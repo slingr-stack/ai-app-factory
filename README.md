@@ -42,7 +42,7 @@ export OPENAI_API_KEY=your-openai-api-key
 
 ### 3. Configure the script
 
-Open *`index.ts`* and update the `SYSTEM_PROMPT` and `answers` variables to describe your desired project.
+Open **`index.ts`** and update the `SYSTEM_PROMPT` and `answers` variables to describe your desired project.
 
 ### 4. Run the generator script
 
