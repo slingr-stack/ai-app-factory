@@ -13,7 +13,7 @@
     "@trpc/client": "^9.5.0",
     "@trpc/server": "^9.5.0",
     "@trpc/next": "^9.5.0",
-    "next": "12.3.0",
+    "next": "16.4.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
